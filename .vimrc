@@ -41,3 +41,8 @@ set shiftwidth=2
 " " On pressing tab, insert 4 spaces
 set expandtab
 set term=screen-256color
+" Fuzzy file search
+set path+=**
+set wildmenu
+" Tags
+command! MakeTags !ctags -R .
