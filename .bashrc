@@ -117,3 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 alias tmux="TERM=screen-256color-bce tmux"
+source /opt/ros/kinetic/setup.bash
